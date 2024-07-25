@@ -1,0 +1,11 @@
+A partir de Java 11, puedes ejecutar directamente un archivo fuente Java utilizando el comando
+java seguido del nombre del archivo fuente. Esto se debe a que java ha sido mejorado para manejar
+el caso donde el archivo fuente se proporciona directamente.
+
+Comando:
+    java HolaMundo.java
+Proceso Interno:
+
+Compilación Automática: Internamente, el comando java compila el archivo fuente HolaMundo.java en bytecode.
+Ejecución: Luego, la JVM ejecuta el bytecode generado como si hubieras hecho los pasos de compilación y
+ejecución por separado.
